@@ -1,0 +1,118 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+LunchAgreementType(standard):
+    name: Standard
+    rate: 50
+    isCashAgreement: false
+
+LunchAgreementType(cash):
+    name: Kontant
+    rate: 62.5
+    isCashAgreement: true
+
+LunchAgreementType(internal):
+    name: Intern
+    rate: 15
+    isCashAgreement: false
+
+Company(regus):
+    name: Regus
+    isAccountEnabled: true
+
+Company(udp):
+    name: UDP AS
+    isAccountEnabled: true
+
+LunchAgreement(agreement-regus1):
+    company: regus
+    type: internal
+
+LunchAgreement(agreement-udpStandard):
+    company: udp
+    type: standard
+
+LunchAgreement(agreement-udpCash):
+    company: udp
+    type: cash
+
+User(regus-admin):
+    username: regus
+    password: passord
+    role: Admin
+    firstName: Regus
+    lastName: Administrator
+    email: lunch-nydalen@regus.com
+    sms: 91234567
+    company: regus
+    cashBalance: 0
+    isAccountEnabled: true
+
+User(kenneth):
+    username: kenneth.leine.schulstad
+    password: passord
+    role: Superuser
+    firstName: Kenneth
+    lastName: Leine Schulstad
+    email: ks@udp.no
+    sms: 93481208
+    company: udp
+    cashBalance: 0
+    isAccountEnabled: true
+
+User(espen):
+    username: espen.schulstad
+    password: passord
+    role: User
+    firstName: Espen
+    lastName: Schulstad
+    email: es@udp.no
+    sms: 97561041
+    company: udp
+    cashBalance: 875
+    isAccountEnabled: true
+
+User(knut):
+    username: knut.oystein.bilden
+    password: passord
+    role: User
+    firstName: Knut Øystein
+    lastName: Bilden
+    email: kb@udp.no
+    sms: 91862419
+    company: udp
+    cashBalance: 0
+    isAccountEnabled: true
+
+CashTransaction(espen-cashTx1):
+    user: espen
+    amount: 1000
+    balance: 1000
+    timestamp: 2011-04-01 11:02:31 +1
+
+CashTransaction(espen-cashTx2):
+    user: espen
+    amount: -62.5
+    balance: 937.5
+    timestamp: 2011-04-01 11:12:31 +1
+
+CashTransaction(espen-cashTx3):
+    user: espen
+    amount: -62.5
+    balance: 875
+    timestamp: 2011-04-04 11:05:02 +1
+
+Card(card-kenneth):
+    cardNo: 4700
+    user: kenneth
+    lunchAgreement: agreement-udpStandard
+
+Card(card-espen):
+    cardNo: 4701
+    user: espen
+    lunchAgreement: agreement-udpCash
+
+Card(card-knut):
+    cardNo: 4702
+    user: knut
+    lunchAgreement: agreement-udpStandard
