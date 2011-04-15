@@ -1,0 +1,120 @@
+<mockup version="1.0" skin="sketch" measuredW="1240" measuredH="505" mockupW="1218" mockupH="484">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="207" y="20" w="-1" h="-1" measuredW="230" measuredH="56" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Lunsjboks.no</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="120" y="89" w="782" h="352" measuredW="200" measuredH="186" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <position>left</position>
+        <selectedIndex>1</selectedIndex>
+        <text>Brukere%0AKort%0ARapporter%0AVarslinger</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::DataGrid" x="207" y="116" w="670" h="274" measuredW="401" measuredH="266" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>7</selectedIndex>
+        <text>Kortnummer%2C%20Navn%20%5E%2C%20Lunsjavtale%2C%20%20%20%20%20%20%20%20%0A%20%20%204910%2C%20Arne%20Olaf%20Godtland%2C%20Standard%0A%20%20%204911%2C%20%3CIngen%3E%2C%20%3CIngen%3E%0A%20%20%204912%2C%20Espen%20Schulstad%2C%20Kontant%0A%20%20%204913%2C%20Jonathan%20Share%2C%20Standard%0A%20%20%204914%2C%20Kenneth%20Leine%20Schulstad%2C%20Standard%0A%20%20%204915%2C%20Knut%20%D8ystein%20Bilden%2C%20Standard%0A%20%20%204916%2C%20Tommy%20Svendsen%2C%20Kontant%0A%20%20%204917%2C%20%D8ystein%20Sandberg%2C%20Standard</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::HRule" x="213" y="360" w="504" h="-1" measuredW="100" measuredH="5" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::SubTitle" x="814" y="52" w="-1" h="-1" measuredW="88" measuredH="37" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>UDP%20AS</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Button" x="807" y="400" w="-1" h="-1" measuredW="82" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nytt%20kort</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="146" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="177" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="208" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="239" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="268" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="295" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="327" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Icon" x="807" y="354" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::StickyNote" x="918" y="89" w="312" h="311" measuredW="109" measuredH="123" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alle%20felt%20kan%20redigeres%20via%20hovereffekt%20p%E5%20feltet.%20Feltene%20kan%20redigeres%20p%E5%20f%F8lgende%20m%E5te...%0A%20%0AKortnummer%3A%20tekstfelt%0A%20%0ANavn%3A%20Dropdown%20med%20tilgjengelige%20brukere%20for%20selskapet%0A%20%0ALunsjavtale%3Adropdown%20med%20lunsjavtaler%20som%20er%20konfigurert%20for%20selskapet.</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::StickyNote" x="12" y="274" w="168" h="155" measuredW="109" measuredH="123" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hvordan%20skal%20kort%20aktiveres/deaktiveres%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="__group__" x="733" y="27" w="-1" h="-1" measuredW="168" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="57" controlTypeID="com.balsamiq.mockups::Label" x="16" y="1" w="-1" h="-1" measuredW="123" measuredH="23" zOrder="0" locked="false" isInGroup="62">
+          <controlProperties>
+            <text>Knut%20%D8ystein%20Bilden</text>
+          </controlProperties>
+        </control>
+        <control controlID="60" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="62">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>16711680</color>
+            <icon>UserIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="61" controlTypeID="com.balsamiq.mockups::Icon" x="144" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="62">
+          <controlProperties>
+            <icon>JumpOutIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Image" x="120" y="11" w="72" h="57" measuredW="216" measuredH="208" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::HelpButton" x="879" y="95" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="131" y="463" w="-1" h="-1" measuredW="175" measuredH="32" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>32768</color>
+        <size>20</size>
+        <text>Superbruker%3A%20Kort</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
